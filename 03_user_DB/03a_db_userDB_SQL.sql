@@ -12,3 +12,14 @@ CREATE TABLE IF NOT EXISTS boo.users
 
 /* Struktur */
 DESCRIBE boo.users;
+
+/* Daten */
+INSERT INTO boo.users(id,userName,firstName,familyName)
+VALUES(DEFAULT,"max","Max","Mütze");
+INSERT INTO boo.users(id,userName,firstName,familyName)
+VALUES(DEFAULT,"maxine","Maxine","Mützerich");
+INSERT INTO boo.users(id,userName,firstName,familyName)
+VALUES(DEFAULT,"maxl","Max","Mützerich");
+
+/* ---- Inhalte der Tabelle anzeigen ---- */
+SELECT * FROM boo.users;
