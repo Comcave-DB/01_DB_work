@@ -58,7 +58,7 @@ LIMIT 20;
 
 
 -- REPLACE() --> Ersetzen von Stringanteilen
-/*
+/**/
 SELECT
 	ticker AS "SYM",
     c_name "Unternehmen",
@@ -68,7 +68,7 @@ FROM stocks.ccc
 WHERE c_name LIKE "%Inc."
 #WHERE c_name LIKE "%Corp."
 LIMIT 20;
-*/
+
 
 -- TRIM() --> Trimmen vor/nach String (Whitespace) Siehe Link
 
