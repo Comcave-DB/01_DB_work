@@ -27,7 +27,6 @@ CREATE TABLE IF NOT EXISTS test
 (
     name VARCHAR(20),
     age INT
-=======
 CREATE TABLE IF NOT EXISTS test
 (
 	name VARCHAR(20),
