@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-=======
+
 /* USER-Tabelle  Version 1 */
 
->>>>>>> d948a5a383757bbf2edd2ae4c0e716c001c0d4d3
 DROP TABLE IF EXISTS boo.users;
 
 CREATE TABLE IF NOT EXISTS boo.users
 (
-<<<<<<< HEAD
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     userName VARCHAR(20) NOT NULL UNIQUE,
     familyName VARCHAR(20) NOT NULL,
@@ -25,7 +22,6 @@ INSERT INTO boo.users(id,userName,firstName,familyName)
 VALUES (DEFAULT,"maxe","Max","Mützerich");
 
 SELECT * FROM boo.users;
-=======
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	userName VARCHAR(20) NOT NULL UNIQUE,
 	familyName VARCHAR(20) NOT NULL,
@@ -45,4 +41,3 @@ VALUES(DEFAULT,"maxl","Max","Mützerich");
 
 /* ---- Inhalte der Tabelle anzeigen ---- */
 SELECT * FROM boo.users;
->>>>>>> d948a5a383757bbf2edd2ae4c0e716c001c0d4d3

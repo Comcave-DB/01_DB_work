@@ -1,13 +1,10 @@
 /* ------  Strukturen ----- */
 
 /* 	 
-<<<<<<< HEAD
 	NULL wird nicht mehr zugelassen
     DEFAULT-Werte eintragen
-=======
 NULL wird nicht mehr zugelassen
     	DEFAULT-Werte eintragen
->>>>>>> d948a5a383757bbf2edd2ae4c0e716c001c0d4d3
 */
 
 /* DB boo löschen, falls vorhanden*/
@@ -19,7 +16,6 @@ CREATE DATABASE IF NOT EXISTS boo;
 /* DB auswählen */
 USE boo;
 
-<<<<<<< HEAD
 DROP TABLE IF EXISTS test;
 
 CREATE TABLE IF NOT EXISTS test
@@ -40,7 +36,7 @@ INSERT INTO test (age,name) VALUES (35,"Alonzo");
 INSERT INTO test (age,name) VALUES (35,"Alonzo");
 
 SELECT * FROM test;
-=======
+
 /* Tabelle test löschen, falls vorhanden */
 DROP TABLE IF EXISTS test; 
 
